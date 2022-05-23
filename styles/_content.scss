@@ -1,0 +1,103 @@
+//flex
+.content-grid {
+  background-color: $background;
+  padding: 90px 0;
+  &-header {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: -1.2px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.content-grid-layout {
+  display: flex;
+
+  &-gall {
+    display: grid;
+    gap: 0.625rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 50%;
+    margin-right: 35px;
+
+    img {
+      width: 100%;
+      height: auto;
+      &:first-of-type {
+        grid-column: span 2 / span 2;
+      }
+    }
+  }
+  .content-grid-layout-header {
+    width: 50%;
+    margin-left: 35px;
+    margin-top: 45px;
+  }
+}
+//---------content 2------------------//
+.content-2 {
+  background-color: $background;
+  padding: 90px 0;
+  &-box {
+    &-header-text {
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      max-width: 670px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: -1.2px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.3px;
+      }
+    }
+    &-flex {
+      display: flex;
+      flex-direction: row;
+
+      &-sec {
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #dbdbdb;
+        padding: 129px 60px 50px;
+        h3 {
+          //margin: 90px 190px 70.5px;
+          margin-bottom: 45px;
+          text-align: center;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.4px;
+        }
+        p {
+          //margin: 70.5px 60px 50px;
+          margin-top: 45px;
+          margin-bottom: 30px;
+          text-align: center;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 22px;
+          letter-spacing: -0.2px;
+        }
+      }
+    }
+  }
+}
