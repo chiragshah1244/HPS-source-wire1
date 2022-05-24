@@ -71,26 +71,26 @@
       &-icohead {
         //icon+head
         display: flex;
+        align-items: center;
         width: 100%;
         img {
-          margin-right: 5px;
-          margin-bottom: 5px;
+          display: block;
         }
         h4 {
+          margin: 0;
           font-weight: 600;
           font-size: 20px;
           line-height: 26px;
           letter-spacing: -0.2px;
           margin-left: 5px;
-          margin-bottom: 6.5px;
         }
-        p {
-          margin-top: 6.5px;
-          font-weight: 400;
-          font-size: 15px;
-          line-height: 22px;
-          letter-spacing: -0.2px;
-        }
+      }
+      p {
+        margin-top: 1rem;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: -0.2px;
       }
     }
   }
@@ -185,47 +185,12 @@
   }
   &-flex {
     //2 row flex container
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    &-row-1 {
-      // 1th row of flex
-      display: flex;
-      padding-top: 30px;
-      padding-bottom: 10px;
-      gap: 30px;
-
-      &-content {
-        // single box
-        box-sizing: border-box;
-        border: 1px solid #dbdbdb;
-        border-radius: 8px;
-        padding: 30px 26px 30px;
-
-        img {
-          margin-bottom: 20px;
-        }
-        h4 {
-          font-weight: 600;
-          font-size: 20px;
-          line-height: 26px;
-          letter-spacing: -0.2px;
-          margin-top: 10px;
-        }
-        p {
-          font-weight: 400;
-          font-size: 15px;
-          line-height: 22px;
-          letter-spacing: -0.2px;
-        }
-      }
-    }
-    &-row-2 {
-      display: flex;
-      margin: 0 auto;
-      gap: 30px;
-      width: 100%;
-      margin: 0 auto;
-      max-width: 830px;
-      padding-top: 10px;
+    .feature-4-box-content {
+      width: 33.33%;
     }
   }
 }
