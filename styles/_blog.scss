@@ -1,7 +1,5 @@
 //blog section
 .blog-1-box {
-  background-color: $background;
-  padding: 90px 0;
   &-main {
     width: 50%;
     margin-right: 60px;
@@ -46,11 +44,8 @@
     }
   }
 }
-//blog- 2--//
+//---------------blog- 2-------------//
 .blog-2-box {
-  background-color: $background;
-  padding: 90px 0;
-
   &-layout {
     // layout for content
     display: flex;
@@ -93,10 +88,8 @@
     }
   }
 }
-//---blog-2---------//
-.blog-2-box {
-  background-color: $background;
-  padding: 90px 0;
+//-------------blog-3---------//
+.blog-3-box {
   &-main {
     // text content center
     text-align: center;

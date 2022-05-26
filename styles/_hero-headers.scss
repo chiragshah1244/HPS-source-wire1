@@ -1,26 +1,23 @@
 // Hero Header 1
-.hero-header-1 {
-  .hero-header-img-text-box {
-    //added to understand its a parent class
-    padding: 90px 0;
-    &-content {
-      margin-right: 15px;
-      h1 {
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 60px;
-        letter-spacing: -1.2px;
-      }
-      p {
-        height: 90px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: -0.3px;
-      }
+
+.hero-header-img-text-box {
+  &-content {
+    margin-right: 15px;
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: -1.2px;
     }
-    &-img {
-      margin-left: 15px;
+    p {
+      height: 90px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -0.3px;
     }
+  }
+  &-img {
+    margin-left: 15px;
   }
 }

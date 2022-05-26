@@ -1,12 +1,7 @@
 .testimonial-1-box {
-  background-color: $background;
-  padding: 90px 0;
-  // flex is applied in the container
   &-grid {
     display: flex;
-
     gap: 125px;
-
     &-content {
       //right side
       width: 50%;
